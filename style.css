@@ -1,0 +1,159 @@
+body,html {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+
+}
+
+body {
+    margin: 0;
+}
+
+.parent-container {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.main-container {
+    width: 95%;
+    height: auto;
+    background-color: #051d40;
+}
+
+.right-sidebar {
+    width: 5%;
+    height: auto;
+    background-color: #145da0;
+    flex-grow: 1;
+}
+
+.main-title {
+    color: #4b8bb9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.welcome-text {
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+.welcome-text-container {
+    width: 40%;
+}
+
+.layout-container-welcome-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    border-radius: 50%;
+}
+
+.headings {
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 5rem;
+}
+
+#AboutMe .main-container p {
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+.about-me-container {
+    width: 75%;
+    margin: auto;
+}
+
+.about-me-container p {
+    line-height: 2;
+}
+
+.myskills-container {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.myskills-container img {
+    display: inline-block;
+    width: 400px;
+}
+
+@media (max-width: 900px) {
+    .myskills-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .myskills-container img {
+    display: block;
+  }
+    .headings {
+        font-size: 3rem;
+    }
+}
+
+.myskills-container p {
+    display: inline-block;
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+    margin: 0;
+}
+
+.myskills-container h3 {
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+.myskills-container-text {
+    margin-left: 20px;
+}
+
+.lets-talk-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.lets-talk-container p {
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+.contact-me-button {
+    background-color: #145da0;
+    color: #FFFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 8px;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    text-decoration: none; 
+}
+
+
+
+
